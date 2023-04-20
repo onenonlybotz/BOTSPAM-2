@@ -10,14 +10,14 @@ if START_MESSAGE:
     START_MESSAGE = START_MESSAGE
 else:
     START_MESSAGE = (
-        "This is a Powerful Bot Spam Made By [Team Legend](https://t.me/TeamLegendXD)"
+        "This is a Powerful Bot Spam Made By [Baap Aaditya](https://t.me/Baap_Aaditya)"
     )
 
 
 if START_PIC:
     START_PIC = START_PIC
 else:
-    START_PIC = "https://graph.org/file/89ed7d3a2bd8aa2c61385.jpg"
+    START_PIC = "https://telegra.ph/file/5eb54b3b5c900b2fae835.jpg"
 
 
 @Client.on_message(filters.command(["start"], prefixes=HANDLER))
