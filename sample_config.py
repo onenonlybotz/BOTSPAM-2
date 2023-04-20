@@ -35,9 +35,9 @@ BOT_TOKEN23 = config("BOT_TOKEN23", default=None)
 BOT_TOKEN24 = config("BOT_TOKEN24", default=None)
 BOT_TOKEN25 = config("BOT_TOKEN25", default=None)
 try:
-    SUDO_USERS = str(getenv("SUDO_USERS", "123 456")).split(" ")
+    SUDO_USERS = str(getenv("SUDO_USERS", "5513373412")).split(" ")
 except Exception:
-    SUDO_USERS = str(getenv("SUDO_USERS", "123 456"))
+    SUDO_USERS = str(getenv("SUDO_USERS", "5513373412"))
 
 START_MESSAGE = getenv("START_MESSAGE", None)
 
@@ -47,7 +47,7 @@ START_PIC = getenv("START_PIC", None)
 
 
 HELP_MSG = getenv("HELP_MSG", None)
-HELP_PIC = getenv("HELP_PIC", "https://graph.org/file/89ed7d3a2bd8aa2c61385.jpg")
+HELP_PIC = getenv("HELP_PIC", "https://telegra.ph/file/5eb54b3b5c900b2fae835.jpg")
 LOG_CHANNEL = getenv("LOG_CHANNEL", None)
 
 HANDLER = getenv("HANDLER", "/")
